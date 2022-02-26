@@ -240,7 +240,7 @@ function setup() {
     block1.addImage(block1img)
     block1.scale = 1.5
     block1.visible = false
-    block1.debug = true
+    //block1.debug = true
     block1.setCollider("rectangle", 0, 0, (block1.width / 2), (block1.height) / 2)
 
 
@@ -248,7 +248,7 @@ function setup() {
     block2.addImage(block2img)
     block2.scale = .75
     block2.visible = false
-    block2.debug = true
+   // block2.debug = true
     block2.setCollider("rectangle", 0, 0, (block2.width / 2), (block2.height) / 2)
 
 
@@ -727,7 +727,7 @@ function draw() {
         if (player.isTouching(O17s)) {
             life -= 1
             O17s.x = 55
-            O17s.debug=true
+         //   O17s.debug=true
        /*     if (life === 3) {
                 lifes.addImage(lifeallimg)
             }
@@ -1007,7 +1007,7 @@ function spawncoins() {
 
         bronze.velocityX = -5
         bronze.scale = 0.1
-bronze.debug=true
+//bronze.debug=true
         bronzeGroup.add(bronze)
         //bronze.visible=false
 
@@ -1052,7 +1052,7 @@ function spawnenemy1level2() {
 function spawnenemy1level3() {
     if (frameCount % 60 == 0) {
         obs1l3 = createSprite(width / 4, -50)
-        obs1l3.debug=true
+      //  obs1l3.debug=true
         var rand = Math.round(random(1, 2))
         switch (rand) {
             case 1: obs1l3.x = Math.round(random(50, width - 50))
