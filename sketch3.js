@@ -24,7 +24,7 @@ function preload() {
     silverimg = loadAnimation("s1.png", "s2.png", "s3.png", "s4.png", "s5.png", "s6.png", "s7.png", "s8.png", "s9.png", "s10.png")
     goldimg = loadAnimation("c1.png", "c2.png", "c3.png", "c4.png", "c5.png", "c6.png", "c7.png", "c8.png", "c9.png", "c10.png")
 
-    o22img = loadImage("assets/o22.png")
+    o22img = loadImage("assets/O22.png")
     winimg = loadImage("win.gif")
 
     playerstandimg = loadAnimation("b4.png", "b4.png", "b4.png", "b4.png")
